@@ -1,29 +1,27 @@
-#include "iostream"
-#include "mas.h"
 
-using namespace std;
-
-void mas::output()
-{
-    for(int i=0; i<size; i++)
-    {
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
+}            }
 }
+mas&mas::association(mas &obj)
+{
 void mas::input()
 {
     for (int i = 0; i <size; i++)
             {
                 cin >>arr[i];
             }
+}            }
 }
+mas&mas::association(mas &obj)
+{
 mas&mas::association(mas &obj)
 {
     int*temp=new int();
 
         int x = 0; int k = 0;
-
+            }
+}
+mas&mas::association(mas &obj)
+{
         for (int i = 0; i < size; i++)
         {
             for (int j = 0; j < obj.size; j++)
